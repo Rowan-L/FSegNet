@@ -5,16 +5,8 @@ crop_size = (512, 512)
 train_pipeline = [
     dict(type='LoadImageFromFile'),
     dict(type='LoadAnnotations', reduce_zero_label=True),
-    # dict(
-    #     type='RandomResize',
-    #     scale=(512, 512),
-    #     ratio_range=(0.5, 2.0),
-    #     keep_ratio=True),
-    # dict(type='RandomCrop', crop_size=crop_size, cat_max_ratio=0.75),
-    # dict(type='BioMedicalGaussianNoise'),
     dict(type='RandomFlip', prob=0.5),
     dict(type='RandomRotate', prob=0.2, degree=(-180, 180)),
-    # dict(type='RandomCutOut', prob=0.2, n_holes=(1, 5), cutout_shape=[(16, 16), (24, 24), (32, 32), (48, 48)]),
     dict(type='PhotoMetricDistortion'),
     dict(type='PackSegInputs')
 ]
