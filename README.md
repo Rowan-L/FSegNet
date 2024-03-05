@@ -3,7 +3,7 @@
 
 "FSegNet: A semantic segmentation network for HRSIs that balances efficiency and performance"
 
-**How to use**
+**How to use?**
 
 * The project is built based on [MMSegmentation](https://github.com/open-mmlab/mmsegmentation):
     *  First download the [MMSegmentation](https://github.com/open-mmlab/mmsegmentation) and configure the required environment to run according to the official documentation. We recommend using MMSegmentation version 1.10.
