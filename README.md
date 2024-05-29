@@ -19,6 +19,6 @@ The paper is under review: "FSegNet: A semantic segmentation network for HRSIs t
     *  In the `mmseg/models/backbones/fastervit.py` line 957 load the model file
 * After the above steps, you can run `train.py`. If you need to modify hyperparameters, see the official documentation.
 
-*Our model weights will be released after the paper is accepted.*
+*Our model can be downloaded [here](https://drive.google.com/file/d/1b_fQTcZRVetaktSJQ0ffdCh_IBM-BdYG/view?usp=drive_link).*
 
 **If there are any problems in use, please give me feedback.**
